@@ -35,8 +35,16 @@ function Tickets() {
           'X-RapidAPI-Key': '95b89d4f8amsh66de7d94e006c46p125806jsnc92049273ca5',
           'X-RapidAPI-Host': 'travelpayouts-travelpayouts-flight-data-v1.p.rapidapi.com'
         }});
-      const result = await response.json();
-      setMyCities(result.data);
+        if(response.ok) {
+          const result = await response.json();
+          setMyCities(result.data);
+        } else {
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Code seems to be incorrect"
+          });
+        }
     }
     handleData()
   }, [wordSubmit]);

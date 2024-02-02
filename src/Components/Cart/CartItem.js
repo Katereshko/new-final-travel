@@ -3,10 +3,8 @@ import { useDispatch } from "react-redux";
 import { removeItemFromCart } from "../../redux/cartSlice";
 
 const CartItem = ({cartItem}) => {
-  console.log(cartItem)
   const goods = dataGoods.find(item => item.id === cartItem.goodsId);
   const dispatch = useDispatch();
-  console.log(goods)
   return (
     <div>
       <p>{goods.name}</p>
