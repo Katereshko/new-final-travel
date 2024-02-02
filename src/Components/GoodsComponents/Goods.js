@@ -14,7 +14,7 @@ const Goods = () => {
         return selectedCategory === product.category;
       }
       )
-      .map(product => <GoodsItem product={product}/>)}
+      .map((product, index) => <GoodsItem key={index} product={product}/>)}
     </div>
   )
 }

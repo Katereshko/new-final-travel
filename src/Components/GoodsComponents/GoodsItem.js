@@ -3,12 +3,12 @@ import { useDispatch } from "react-redux";
 import { useState } from "react";
 import { addItemToCart } from "../../redux/cartSlice";
 
-const GoodsItem = ({product}) => {
+const GoodsItem = ({product, index}) => {
   const [quantity, setQuantity] = useState(1);
   const dispatch = useDispatch();
 
   return (
-    <div>
+    <div key={index}>
       <img alt="item_photo" src={`./${product.img}.jpg`}/>
       <h2>{product.name}</h2>
       <p>${product.price}</p>

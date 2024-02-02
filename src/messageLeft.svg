@@ -1,1 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 858.64 252.14"><defs><style>.cls-1{fill:#e5e5ea;}.cls-2{font-size:48px;font-family:Arial-BoldMT, Arial;font-weight:700;}</style></defs><g id="Слой_2" data-name="Слой 2"><g id="Objects"><path class="cls-1" d="M858.64,68.15V176.33a68.15,68.15,0,0,1-68.15,68.14H91.14A67.88,67.88,0,0,1,50,230.69C24.75,248,0,252.14,0,252.14s23-21.3,23-75.81V68.15A68.15,68.15,0,0,1,91.14,0H790.49A68.15,68.15,0,0,1,858.64,68.15Z"/><text class="cls-2" transform="translate(77.24 81.12)">Hi!<tspan x="0" y="57.6">Hi about a spontaneous trip </tspan><tspan x="0" y="115.2">next week?</tspan></text></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 858.6 252.1" style="enable-background:new 0 0 858.6 252.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E5E5EA;}
+	.st1{font-family:'Arial-BoldMT';}
+	.st2{font-size:48px;}
+</style>
+<g id="Слой_2_00000135666817408976892400000004743270116566594474_">
+	<g id="Objects">
+		<path class="st0" d="M858.6,68.1v108.2c0,37.6-30.5,68.1-68.2,68.1H91.1c-14.9,0-29.3-4.8-41.1-13.8C24.8,248,0,252.1,0,252.1
+			s23-21.3,23-75.8V68.1C23,30.5,53.5,0,91.1,0h699.3C828.1,0,858.6,30.5,858.6,68.1C858.6,68.1,858.6,68.1,858.6,68.1z"/>
+		<text transform="matrix(1 0 0 1 77.24 81.12)" class="st1 st2">Hi!</text>
+		<text transform="matrix(1 0 0 1 77.24 138.72)" class="st1 st2">How about a spontaneous trip </text>
+		<text transform="matrix(1 0 0 1 77.24 196.32)" class="st1 st2">next week?</text>
+	</g>
+</g>
+</svg>
