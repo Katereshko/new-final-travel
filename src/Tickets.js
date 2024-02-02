@@ -72,7 +72,7 @@ function Tickets() {
           <p>From: {element.origin}</p>
           <p>To: {element.destination}</p>
           <p>Airlines: {element.airline}</p>
-          <p>Departure time: {element.departure_at}</p>
+          <p>Departure time: {element.departure_at.slice(0, 10)}, {element.departure_at.slice(11, 19)} </p>
           <p>Price: ${element.price}</p>
         </div>
       ))}
