@@ -170,6 +170,18 @@ img{
     width: 70%;
   }
 
+  .airport{
+    background-repeat: no-repeat;
+  }
+  
+  .airport-contacts{
+    background-repeat: no-repeat;
+  }
+  
+  .hotels{
+    background-repeat: no-repeat;
+  }
+
 }
 
 @media all and (max-width: 700px){
@@ -213,10 +225,6 @@ img{
 
   h2{
     font-size: 18px;
-  }
-
-  .container-vertical{
-    margin: 0 20px;
   }
   
 }
