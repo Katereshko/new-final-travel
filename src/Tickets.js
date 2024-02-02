@@ -45,9 +45,9 @@ function Tickets() {
             text: "Code seems to be incorrect"
           });
         }
-    }
+    } 
     handleData()
-  }, [wordSubmit]);
+  }, [wordSubmit, url]);
 
   return (
     <div className="App">
