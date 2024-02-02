@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  background-color: #91e0ff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 100vh;
+  background: url("./final-main.svg");
+  background-size: cover;
+  background-position: center 100px;
+  background-repeat: no-repeat;
+}
+
+.header_app{
+  color: #ff6e00;
+  font-size: 96px;
+  font-family: 'Caveat', cursive;
+  margin-top: 10px;
+}
+
+.container{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container-vertical{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background: #5D979A;
+  width: 100vw;
+}
+
+.navbar_link{
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #F5F6E6;
+  text-transform: uppercase;
+  font-family: 'Nunito', sans-serif;
+}
+
+.airport{
+  background: url("./Airport.svg");
+  width: 100vw;
+  color: #00538C;
+  font-family: "Nunito", sans-serif;
+}
+
+.airport-contacts{
+  background: url("./Contacts.svg");
+  width: 100vw;
+  color: #00538C;
+  font-family: "Nunito", sans-serif;
+}
+
+.hotels{
+  background: url("./Skyline.svg");
+  width: 100vw;
+  color: #00538C;
+  font-family: "Nunito", sans-serif;
+}
+
+.airport-main{
+  padding: 20px;
+  border: 3px solid #91e0ff;
+  background-color: rgba(205, 209, 228, 0.8);
+  border-radius: 20px;
+  width: 50%;
+}
+
+.hotel-main{
+  padding: 20px;
+  border: 3px solid #91e0ff;
+  background-color: rgba(205, 209, 228, 0.8);
+  border-radius: 20px;
+  width: 80%;
+  min-height: 100vh;
+}
+
+.airport-header{
+  color: #5D979A;
+}
+
+.advice{
+  padding: 20px 30px;
+  background-color: #fff4f2;
+  border: #fcc201 3px solid;
+  border-radius: 20px;
+  width: 90%;
+  text-align: center;
+  font-size: 18px;
+}
+
+p{
+  text-align: center;
+}
+
+p, h2, h3, button, span {
+  font-family: 'Nunito', sans-serif;
+}
+
+h2{
+  font-size: 24px;
+}
+
+button{
+  font-weight: 600;
+}
+
+.message{
+  margin: 30px;
+  width: 400px;
+}
+
+.message-left{
+  margin-left: -40px;
+}
+
+.message-right{
+  margin-right: -40px;
+}
+
+img{
+  width: 700px;
 }
