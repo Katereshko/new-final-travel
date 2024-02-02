@@ -17,7 +17,6 @@ function HaveFun(){
 
   return (
     <div className="container-vertical airport">
-      
       <div className="airport-main">
 
         <div className="container-vertical">
@@ -31,7 +30,6 @@ function HaveFun(){
         </div>
 
       </div>
-
     </div>
   );
 }

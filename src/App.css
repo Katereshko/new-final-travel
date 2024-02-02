@@ -21,6 +21,14 @@ body{
   margin-top: 10px;
 }
 
+.orange{
+  color: #ff6e00;
+}
+
+.small-margin{
+  margin-bottom: 0;
+}
+
 .container{
   display: flex;
   justify-content: center;
@@ -90,6 +98,10 @@ nav{
   color: #5D979A;
 }
 
+.tickets-header{
+  color: #00538C
+}
+
 .advice{
   padding: 20px 30px;
   background-color: #fff4f2;
@@ -106,6 +118,7 @@ p{
 
 p, h2, h3, button, span {
   font-family: 'Nunito', sans-serif;
+  color: #00538C;
 }
 
 h2{
@@ -131,4 +144,13 @@ button{
 
 img{
   width: 700px;
+}
+
+.oneFlight{
+  border: 1px grey solid;
+  border-radius: 20px;
+}
+
+.small{
+  font-size: 16px;
 }

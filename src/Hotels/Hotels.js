@@ -29,7 +29,6 @@ function Hotels() {
   return(
 
     <div className="container-vertical hotels">
-      
       <div className="hotel-main">
 
         <div className="container-vertical">
@@ -43,7 +42,7 @@ function Hotels() {
           <button onClick={nextHotel}>Next</button>
         </div>
         <div className="container">
-          <img src={image} width="300px" alt="hotel"/>
+          <img src={image} alt="hotel"/>
         </div>
         <div className="container">
           <h3>Located in: {city}</h3>
@@ -53,7 +52,6 @@ function Hotels() {
         </div>
 
       </div>
-
     </div>
     )
     }

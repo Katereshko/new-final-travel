@@ -1,7 +1,6 @@
 function Contacts(){
   return (
     <div className="container-vertical airport-contacts">
-      
       <div className="airport-main">
 
         <div className="container-vertical">
@@ -15,7 +14,6 @@ function Contacts(){
         </div>
 
       </div>
-
     </div>
   );
 }
